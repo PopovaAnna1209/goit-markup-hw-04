@@ -376,10 +376,6 @@ border-bottom: 1px solid #ECECEC;
 
 /*------------customers----------*/
 
-.section {}
-
-.customers {}
-
 .customers-title {
     font-weight: 700;
     font-size: 36px;
@@ -437,6 +433,7 @@ border-bottom: 1px solid #ECECEC;
 .footer-container {
     display: flex;
     gap: 70px;
+    align-items: baseline;
 }
 
 
@@ -491,9 +488,7 @@ border-bottom: 1px solid #ECECEC;
     display: inline-block;
     align-items: center;
     justify-content: center;
-    width: 206px;
-    height: 80px;
-    padding-top: 12px;
+    
 }
 
 .footer-title {
@@ -559,7 +554,8 @@ border-bottom: 1px solid #ECECEC;
     text-align: Center;
     letter-spacing: 0.03em;
     cursor: pointer;
-    border: 4px;
+    border: none;
+    border-radius: 4px;
     color: var(--title-text-color);
     background-color: var(--second-background-color);
 }
@@ -591,9 +587,9 @@ border-bottom: 1px solid #ECECEC;
 
 }
 
-.portfolio-list .item:hover {
+.portfolio-list .item:hover,
+.portfolio-list .item:focus {
 box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
-
 }
 
 
