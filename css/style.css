@@ -584,11 +584,14 @@ border-bottom: 1px solid #ECECEC;
 
 .portfolio-list .item {
     width: calc((100% - 60px) / 3);
-
 }
 
-.portfolio-list .item:hover,
-.portfolio-list .item:focus {
+.portfolio-link {
+    text-decoration: none;
+    display: inline-block;
+}
+.portfolio-link:hover,
+.portfolio-link:focus {
 box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
